@@ -1,3 +1,4 @@
+#my first challenge!!!!
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
@@ -19,7 +20,7 @@ def parse_input():
         X.append([float(i) for i in temp[0:num_features]]) # add [0.44, 0.68] to the next available index of X
         vector.append(float(temp[num_features])) # add 511.14 to the next available index of vector
         
-    num_no_y = int(raw_input().strip()) # grab number of data points we want to predict
+    num_no_y = int(raw_input().strip())
     
     for y in range(num_no_y):
         temp = raw_input().strip().split()
